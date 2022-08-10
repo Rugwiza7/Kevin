@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header,.footer{
+    background-color: #D9D9D9;
+    color:black;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding-top: 25px;
+}
+.header ul li a{
+    color: black;
+    text-decoration: none;
+}
+.header ul span{
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+.section{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 55px 0;
+}
+.image img{
+    height: 60vh;
+    width: 40vw;
+    object-fit: cover;
+}
+.about{
+    height: 60vh;
+    width: 40vw;
+    background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 40px;
+}
+.about h1{
+    padding: 20px 0;
+}
+.about button{
+    padding: 20px;
+    width: 50%;
+    margin: 20px 0;
+    color: white;
+    background-color: black;
+    border: none;
+}
+#style.css> image{
+    box-sizing: border-box;
+}
+.card{
+	height: 40vh;
+	width : 20vw;
+	background-color: white
+}
+
+#img{
+
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 400px;
+    height: 425px;
+
+   
+}
+.card-content{
+	padding : 25px;
+	color:black;
+    margin-right: -30em;
+    justify-content: left;
+}
+#content{
+background: #3333;
+font-family: 'poppins',sans-serif;
+align-content: left;
+justify-content: left;
+}
+#img{
+    margin-top: 2em;
+    margin-left: 3em;
+    width: 400px;
+    height: 425px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;  
+}
+
+body{
+
+
+    background: white;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    height: 400px;
+    margin: 55px;
+
+}
+
+.card-image{
+    background-color: #D9D9D9;
+    height: 400px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+
+.car-1{
+    background-image: url(./gbarkz-vqKnuG8GaQc-unsplash.jpg);
+}
+
+.car-2{
+    background-image: url(./henry-co-YuwnwiJt_A0-unsplash.jpg);
+}
+
+.car-3{
+    background-image: url(./kari-shea-MrXipNsTSbA-unsplash.jpg);
+}
+
+.card h2 {
+    padding: 10px;
+}
+
+.card p {
+    padding: 10px;
+}
+
+.name{
+    transform: translatey(8em);
+    padding: 8em;
+}
+
+.name img{
+    width: 500px;
+    height: 600px;
+
+}
+
+.subname{
+    background-color: #D9D9D9;
+    padding: 1em;
+    display: flex;
+}
+
+.othername{
+    background-color: white;
+    padding: 3em;
+    width: 300px;
+    height: 45vh;
+    border-radius: 5px;
+}
+
+.othername button{
+    background-color: black;
+    color: white;
+    margin-top: 25px;
+    width: 10em;
+    height: 3em;
+}
+.image{
+    display: flex;
+}
+#second-pic{
+    width: 30vw;
+    height: 90vh;
+    transform: translate(-158px,55px);
+}
+#first-pic{
+    position: fixed;
+    
+}
+.tetx{
+    background-color: white;
+    padding: 1em;
+    display: flex;
+}
+.nomi{
+    background-color: white;
+    margin-top: 100px;
+    /* margin-left: 400px; */
+    padding: 3em;
+}
+.nomi h3{
+    text-align: center;
+}
+.nomi p{
+    text-align: center;
+}
+.nomi img{
+    text-align: end;
+    transform: translateY(110px);
+}
+.nomi div{
+    padding: 2em;
+}
+.footer{
+height: 15vh;
+}
+.nomi .two{
+    transform: translate(67em,110px);
+}
+.follow{
+    background-color: #f2e9e4;
+   
+}
+.photo img{
+    width: 150px;
+    height: 150px;
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+    transform: translateY(-43px);
+}
+.follow p{
+   text-align: center;
+}
